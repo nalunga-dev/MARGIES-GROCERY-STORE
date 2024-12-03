@@ -15,6 +15,16 @@ section {
   background-color: #f4f6f6;
   margin-top: 4rem;
 }
+@media (max-width: 1022px) {
+  .grocery {
+    display: none;
+  }
+}
+@media (max-width: 910px) {
+  .content {
+    max-width: 100%;
+  }
+}
 .first-section {
   background-color: #064d4f;
   width: 90%;
@@ -74,7 +84,7 @@ section {
 }
 .second-section {
   width: 90%;
-  height: 60vh;
+  height: 65vh;
   margin: auto;
   background-color: #064d4f;
   display: flex;
@@ -101,8 +111,28 @@ section {
 .content1 {
   font-size: 2.2rem;
 }
+@media (max-width: 910px) {
+  .content1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 655px) {
+  .content1 {
+    font-size: 1rem;
+  }
+}
 .content2 {
   font-size: 1rem;
+}
+@media (max-width: 910px) {
+  .content2 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 785px) {
+  .content2 {
+    font-size: 0.6rem;
+  }
 }
 .content3 {
   padding: 10px;
@@ -155,5 +185,26 @@ section {
   background-color: #f4f6f6;
   padding: 0.8rem;
   border-radius: 50%;
+  font-size: 1.5rem;
+}
+.fourth-section {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.see {
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  align-items: center;
+  color: brown;
+}
+.bxs-right-arrow-alt {
+  color: brown;
+  font-size: 1rem;
+}
+.need {
+  color: rgb(6, 64, 6);
   font-size: 1.5rem;
 }
