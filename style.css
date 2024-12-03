@@ -1,5 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Mr+Dafoe&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-family: "Mona Sans", sans-serif;
+}
+section {
+  max-width: 1034px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #f4f6f6;
+  margin-top: 4rem;
+}
+.first-section {
+  background-color: #064d4f;
+  width: 90%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  gap: 2rem;
+}
+.bx-menu {
+  font-size: 1.5rem;
+}
+.veil {
+  width: 40px;
+  height: 60px;
+  object-fit: cover;
+}
+.bx-cart {
+  background-color: white;
+  width: 20%;
+  border-radius: 50%;
+  color: #064d4f;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 30px;
+  height: 30px;
+}
+.trolly {
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.cart {
+  display: flex;
+  color: white;
+  font-size: 0.8rem;
+  gap: 0.5rem;
+  align-items: center;
+}
+.grocery {
+  border-radius: 1rem;
+  padding: 0.8rem;
+  border: none;
+  color: grey;
+  font-size: 0.8rem;
+}
+.bx-search {
+  text-align: right;
+}
+.cart1 {
+  color: #dabf4f;
+}
+.second-section {
+  width: 90%;
+  height: 60vh;
+  margin: auto;
+  background-color: #064d4f;
+  display: flex;
+  margin-top: 1rem;
+  gap: 2rem;
+  color: white;
+  align-items: centre;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.content {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  width: 50%;
+}
+.Vegetables {
+  width: 50%;
+  text-align: center;
+}
+.content1 {
+  font-size: 2.2rem;
+}
+.content2 {
+  font-size: 1rem;
+}
+.content3 {
+  padding: 10px;
+  width: 25%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(95, 227, 95);
+}
+.fruits {
+  object-fit: contain;
+}
+.third-section {
+  width: 91%;
+  /* background-color: red; */
+  margin: auto;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.brocoli {
+  background-color: antiquewhite;
+  width: 18%;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+.brocoli0 {
+  font-size: 0.8rem;
+}
+.brocoli1 {
+  font-size: 1rem;
+}
+.brocolia {
+  background-color: rgb(34, 129, 34);
+  width: 18%;
+  padding: 1rem;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.bx-right-arrow-alt {
+  background-color: #f4f6f6;
+  padding: 0.8rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
 }
